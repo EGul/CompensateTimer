@@ -44,3 +44,7 @@ Invalidate the timer
 git clone https://github.com/egul/compensatetimer
 ```
 Move CompensateTimer.h,m to project
+
+## License
+
+MIT
