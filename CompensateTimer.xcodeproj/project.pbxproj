@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7607C2A61BD2DD140074ABCA /* CompensateTimer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7607C2A51BD2DD140074ABCA /* CompensateTimer.h */; };
+		7607C2A81BD2DD140074ABCA /* CompensateTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7607C2A71BD2DD140074ABCA /* CompensateTimer.m */; };
+		7607C2AE1BD2DD140074ABCA /* libCompensateTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7607C2A21BD2DD140074ABCA /* libCompensateTimer.a */; };
+		7607C2BD1BD2DD500074ABCA /* CompensateTimerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7607C2BC1BD2DD500074ABCA /* CompensateTimerTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7607C2AF1BD2DD140074ABCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7607C29A1BD2DD140074ABCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7607C2A11BD2DD140074ABCA;
+			remoteInfo = CompensateTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7607C2A01BD2DD140074ABCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7607C2A61BD2DD140074ABCA /* CompensateTimer.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7607C2A21BD2DD140074ABCA /* libCompensateTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCompensateTimer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7607C2A51BD2DD140074ABCA /* CompensateTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompensateTimer.h; sourceTree = "<group>"; };
+		7607C2A71BD2DD140074ABCA /* CompensateTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompensateTimer.m; sourceTree = "<group>"; };
+		7607C2AD1BD2DD140074ABCA /* CompensateTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompensateTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7607C2B31BD2DD140074ABCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7607C2BC1BD2DD500074ABCA /* CompensateTimerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompensateTimerTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7607C29F1BD2DD140074ABCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7607C2AA1BD2DD140074ABCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7607C2AE1BD2DD140074ABCA /* libCompensateTimer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7607C2991BD2DD140074ABCA = {
+			isa = PBXGroup;
+			children = (
+				7607C2A41BD2DD140074ABCA /* CompensateTimer */,
+				7607C2B11BD2DD140074ABCA /* CompensateTimerTests */,
+				7607C2A31BD2DD140074ABCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7607C2A31BD2DD140074ABCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7607C2A21BD2DD140074ABCA /* libCompensateTimer.a */,
+				7607C2AD1BD2DD140074ABCA /* CompensateTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7607C2A41BD2DD140074ABCA /* CompensateTimer */ = {
+			isa = PBXGroup;
+			children = (
+				7607C2A51BD2DD140074ABCA /* CompensateTimer.h */,
+				7607C2A71BD2DD140074ABCA /* CompensateTimer.m */,
+			);
+			path = CompensateTimer;
+			sourceTree = "<group>";
+		};
+		7607C2B11BD2DD140074ABCA /* CompensateTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7607C2BC1BD2DD500074ABCA /* CompensateTimerTest.m */,
+				7607C2B21BD2DD140074ABCA /* Supporting Files */,
+			);
+			path = CompensateTimerTests;
+			sourceTree = "<group>";
+		};
+		7607C2B21BD2DD140074ABCA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7607C2B31BD2DD140074ABCA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7607C2A11BD2DD140074ABCA /* CompensateTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7607C2B61BD2DD140074ABCA /* Build configuration list for PBXNativeTarget "CompensateTimer" */;
+			buildPhases = (
+				7607C29E1BD2DD140074ABCA /* Sources */,
+				7607C29F1BD2DD140074ABCA /* Frameworks */,
+				7607C2A01BD2DD140074ABCA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompensateTimer;
+			productName = CompensateTimer;
+			productReference = 7607C2A21BD2DD140074ABCA /* libCompensateTimer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7607C2AC1BD2DD140074ABCA /* CompensateTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7607C2B91BD2DD140074ABCA /* Build configuration list for PBXNativeTarget "CompensateTimerTests" */;
+			buildPhases = (
+				7607C2A91BD2DD140074ABCA /* Sources */,
+				7607C2AA1BD2DD140074ABCA /* Frameworks */,
+				7607C2AB1BD2DD140074ABCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7607C2B01BD2DD140074ABCA /* PBXTargetDependency */,
+			);
+			name = CompensateTimerTests;
+			productName = CompensateTimerTests;
+			productReference = 7607C2AD1BD2DD140074ABCA /* CompensateTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7607C29A1BD2DD140074ABCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					7607C2A11BD2DD140074ABCA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7607C2AC1BD2DD140074ABCA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 7607C29D1BD2DD140074ABCA /* Build configuration list for PBXProject "CompensateTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7607C2991BD2DD140074ABCA;
+			productRefGroup = 7607C2A31BD2DD140074ABCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7607C2A11BD2DD140074ABCA /* CompensateTimer */,
+				7607C2AC1BD2DD140074ABCA /* CompensateTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7607C2AB1BD2DD140074ABCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7607C29E1BD2DD140074ABCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7607C2A81BD2DD140074ABCA /* CompensateTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7607C2A91BD2DD140074ABCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7607C2BD1BD2DD500074ABCA /* CompensateTimerTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7607C2B01BD2DD140074ABCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7607C2A11BD2DD140074ABCA /* CompensateTimer */;
+			targetProxy = 7607C2AF1BD2DD140074ABCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7607C2B41BD2DD140074ABCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7607C2B51BD2DD140074ABCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7607C2B71BD2DD140074ABCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7607C2B81BD2DD140074ABCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7607C2BA1BD2DD140074ABCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CompensateTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7607C2BB1BD2DD140074ABCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CompensateTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7607C29D1BD2DD140074ABCA /* Build configuration list for PBXProject "CompensateTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7607C2B41BD2DD140074ABCA /* Debug */,
+				7607C2B51BD2DD140074ABCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7607C2B61BD2DD140074ABCA /* Build configuration list for PBXNativeTarget "CompensateTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7607C2B71BD2DD140074ABCA /* Debug */,
+				7607C2B81BD2DD140074ABCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7607C2B91BD2DD140074ABCA /* Build configuration list for PBXNativeTarget "CompensateTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7607C2BA1BD2DD140074ABCA /* Debug */,
+				7607C2BB1BD2DD140074ABCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7607C29A1BD2DD140074ABCA /* Project object */;
+}
