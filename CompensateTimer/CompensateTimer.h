@@ -11,6 +11,7 @@
 @interface CompensateTimer : NSObject
 
 -(void)setInterval:(float)interval repeats:(BOOL)repeats block:(void(^)(void))block;
+-(void)setInterval:(NSTimeInterval)seconds target:(id)target selector:(SEL)aSelector userInfo:(id)userInfo repeats:(BOOL)repeats;
 -(void)invalidate;
 
 @end
