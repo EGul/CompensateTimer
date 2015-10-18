@@ -7,13 +7,13 @@ CompensateTimer prevents timer drift
 CompensateTimer *compensateTimer = [[CompensateTimer alloc]init];
 
 [compensateTimer setInterval:5.0 repeats:true block: ^ {
-  NSLog(@"something")
+  NSLog(@"something");
 }];
 ```
 
 ## API
 
-#### -(void)setInterval:(float)interval repeats:(BOOL)repeats block:(void (^)(void))block;
+### -(void)setInterval:(float)interval repeats:(BOOL)repeats block:(void (^)(void))block;
 
 Set the compensate timer
 
@@ -34,6 +34,40 @@ Whether or not the timer should repeat
 `block`
 
 The completion block
+
+### -(void)setInterval:(NSTimeInterval)seconds target:(id)target selector:(SEL)aSelector userInfo:(id)userInfo repeats:(BOOL)repeats;
+
+Set the compensate timer
+
+#### seconds
+
+`float`
+
+The time interval
+
+#### target
+
+`id`
+
+The target
+
+#### aSelector
+
+`SEL`
+
+The selector
+
+#### userInfo
+
+`id`
+
+The user info
+
+#### repeats
+
+`BOOL`
+
+Whether or not the timer repeats
 
 ### -(void)invalidate
 
