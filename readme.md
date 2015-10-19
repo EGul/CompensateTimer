@@ -12,8 +12,9 @@ CompensateTimer *compensateTimer = [[CompensateTimer alloc]init];
 ```
 
 ## API
-
-### -(void)setInterval:(float)interval repeats:(BOOL)repeats block:(void (^)(void))block;
+```objective-c
+-(void)setInterval:(float)interval repeats:(BOOL)repeats block:(void (^)(void))block;
+```
 
 Set the compensate timer
 
@@ -35,7 +36,9 @@ Whether or not the timer should repeat
 
 The completion block
 
-### -(void)setInterval:(NSTimeInterval)seconds target:(id)target selector:(SEL)aSelector userInfo:(id)userInfo repeats:(BOOL)repeats;
+```objective-c
+-(void)setInterval:(NSTimeInterval)seconds target:(id)target selector:(SEL)aSelector userInfo:(id)userInfo repeats:(BOOL)repeats;
+```
 
 Set the compensate timer
 
@@ -69,11 +72,24 @@ The user info
 
 Whether or not the timer repeats
 
-### -(void)invalidate
+```objective-c
+-(void)invalidate
+```
 
 Invalidate the timer
 
 ## Install
+
+### CocoaPods
+
+#### Podfile
+
+```
+pod "CompensateTimer", :git => "https://github.com/egul/compensatetimer"
+```
+
+### Manual
+
 ```
 git clone https://github.com/egul/compensatetimer
 ```
